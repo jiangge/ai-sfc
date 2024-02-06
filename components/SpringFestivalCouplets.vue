@@ -112,7 +112,7 @@ async function shareLink() {
 
   <div class="font-zmx flex items-center justify-center gap-2" text="2xl" m="4">
     <label class="select-none pr-[15px] leading-none" for="airplane-mode">
-      倒转福字
+      倒转
     </label>
     <SwitchRoot
       id="airplane-mode"
@@ -127,7 +127,7 @@ async function shareLink() {
 
   <div class="font-zmx flex items-center justify-center gap-2" text="2xl" m="4">
     <label class="select-none pr-[15px] leading-none" for="airplane-mode">
-      翻转春联
+      翻转对联
     </label>
     <SwitchRoot
       id="airplane-mode"
@@ -151,7 +151,7 @@ async function shareLink() {
 
   <div class="font-zmx mt-2 flex" text="black" gap="2">
     <SfcButton icon="i-ri-link" @click="shareLink">
-      分享春联链接
+      分享对联链接
     </SfcButton>
   </div>
 </template>
