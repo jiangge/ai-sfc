@@ -2,7 +2,6 @@
 // const online = useOnline()
 const app = useAppStore()
 </script>
-<script async src="https://tj.dian.org/script.js" data-website-id="8a9fa9e0-2cde-4c3c-a8cf-f5b643be8864"></script>
 <template>
   <div>
     <!-- <Logos mb-6 /> -->
