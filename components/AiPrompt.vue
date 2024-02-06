@@ -34,7 +34,7 @@ watch(() => [Cmd_enter.value, Ctrl_enter.value], (v) => {
   <div class="flex flex-col gap-4">
     <textarea
       v-model="app.prompt"
-      placeholder="想要什么样的春联？"
+      placeholder="想要什么样的对联？"
       class="w-full rounded-lg p-4 shadow dark:bg-dark-800 outline-none!"
       border="~ gray focus:(yellow-500)"
       :maxlength="config.inputMaxLength"
@@ -47,7 +47,7 @@ watch(() => [Cmd_enter.value, Ctrl_enter.value], (v) => {
       :disabled="app.loading"
       @click="generate"
     >
-      {{ app.loading ? '生成中...' : '生成春联' }}
+      {{ app.loading ? '生成中...' : '生成对联' }}
       <div v-if="app.loading" class="i-svg-spinners:pulse ml-2" />
     </button>
   </div>
